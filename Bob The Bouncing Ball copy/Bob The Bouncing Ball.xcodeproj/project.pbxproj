@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B0B747027038AC500BDCF55 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0B746F27038AC500BDCF55 /* Settings.swift */; };
+		9B3D2EA326FB945C00A1716E /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3D2EA226FB945C00A1716E /* Key.swift */; };
+		9B468BB72704E96D00E522ED /* Screens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B468BB62704E96D00E522ED /* Screens.swift */; };
+		9B554B0E26F8FF0100DF00CA /* Bob_The_Bouncing_BallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B554AFB26F8FEFF00DF00CA /* Bob_The_Bouncing_BallApp.swift */; };
+		9B554B0F26F8FF0100DF00CA /* Bob_The_Bouncing_BallApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B554AFB26F8FEFF00DF00CA /* Bob_The_Bouncing_BallApp.swift */; };
+		9B554B1026F8FF0100DF00CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B554AFC26F8FEFF00DF00CA /* ContentView.swift */; };
+		9B554B1126F8FF0100DF00CA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B554AFC26F8FEFF00DF00CA /* ContentView.swift */; };
+		9B554B1226F8FF0100DF00CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B554AFD26F8FF0100DF00CA /* Assets.xcassets */; };
+		9B554B1326F8FF0100DF00CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B554AFD26F8FF0100DF00CA /* Assets.xcassets */; };
+		9B554B1D26F8FF2200DF00CA /* Bob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B554B1C26F8FF2200DF00CA /* Bob.swift */; };
+		9B554B2026F9004700DF00CA /* Pixel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B554B1F26F9004700DF00CA /* Pixel.swift */; };
+		9B554B2126F9004700DF00CA /* Pixel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B554B1F26F9004700DF00CA /* Pixel.swift */; };
+		9B554B2626F9062D00DF00CA /* GameMechanics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B554B2526F9062D00DF00CA /* GameMechanics.swift */; };
+		9B554B2726F9062D00DF00CA /* GameMechanics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B554B2526F9062D00DF00CA /* GameMechanics.swift */; };
+		9B554B2926F9070A00DF00CA /* BobGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B554B2826F9070A00DF00CA /* BobGame.swift */; };
+		9B554B2A26F9070A00DF00CA /* BobGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B554B2826F9070A00DF00CA /* BobGame.swift */; };
+		9B6FDC1D26FA3BD800856280 /* Wall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6FDC1C26FA3BD800856280 /* Wall.swift */; };
+		9B6FDC2126FA533F00856280 /* Door.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6FDC2026FA533F00856280 /* Door.swift */; };
+		9BA2862C270F696F00710D81 /* Geometry in Resources */ = {isa = PBXBuildFile; fileRef = 9BA2862B270F696F00710D81 /* Geometry */; };
+		9BAFA6BF270B59D400B85716 /* Bomb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFA6BE270B59D400B85716 /* Bomb.swift */; };
+		9BAFA6C1270B5C7900B85716 /* LevelOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFA6C0270B5C7900B85716 /* LevelOneView.swift */; };
+		9BAFA6C3270B629D00B85716 /* Fireball.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFA6C2270B629D00B85716 /* Fireball.swift */; };
+		9BAFA6CA270B72DD00B85716 /* Walls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFA6C9270B72DD00B85716 /* Walls.swift */; };
+		9BAFA6CC270B73AC00B85716 /* Spikes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFA6CB270B73AC00B85716 /* Spikes.swift */; };
+		9BAFA6CE270B744900B85716 /* Spike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAFA6CD270B744900B85716 /* Spike.swift */; };
+		9BBA739A270E25820038D005 /* GhostKing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBA7399270E25820038D005 /* GhostKing.swift */; };
+		9BD9715227061B0B00DD21FD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD9715127061B0B00DD21FD /* HomeView.swift */; };
+		9BE28C56270CAA9D0051ED3D /* ImmunityPotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE28C55270CAA9D0051ED3D /* ImmunityPotion.swift */; };
+		9BE28C58270CAD240051ED3D /* GhostPotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BE28C57270CAD240051ED3D /* GhostPotion.swift */; };
+		9BF72B0626FCE39400EEFD97 /* LevelChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF72B0526FCE39400EEFD97 /* LevelChooser.swift */; };
+		9BF72B0726FCE39400EEFD97 /* LevelChooser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF72B0526FCE39400EEFD97 /* LevelChooser.swift */; };
+		9BF72B0C26FCE43500EEFD97 /* LevelStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF72B0B26FCE43500EEFD97 /* LevelStore.swift */; };
+		9BF72B0D26FCE43500EEFD97 /* LevelStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF72B0B26FCE43500EEFD97 /* LevelStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9B0B746F27038AC500BDCF55 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		9B3D2EA226FB945C00A1716E /* Key.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		9B468BB62704E96D00E522ED /* Screens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screens.swift; sourceTree = "<group>"; };
+		9B554AFB26F8FEFF00DF00CA /* Bob_The_Bouncing_BallApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bob_The_Bouncing_BallApp.swift; sourceTree = "<group>"; };
+		9B554AFC26F8FEFF00DF00CA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B554AFD26F8FF0100DF00CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B554B0226F8FF0100DF00CA /* Bob The Bouncing Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bob The Bouncing Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B554B0526F8FF0100DF00CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B554B0A26F8FF0100DF00CA /* Bob The Bouncing Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bob The Bouncing Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B554B0C26F8FF0100DF00CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B554B0D26F8FF0100DF00CA /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		9B554B1C26F8FF2200DF00CA /* Bob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bob.swift; sourceTree = "<group>"; };
+		9B554B1F26F9004700DF00CA /* Pixel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pixel.swift; sourceTree = "<group>"; };
+		9B554B2526F9062D00DF00CA /* GameMechanics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMechanics.swift; sourceTree = "<group>"; };
+		9B554B2826F9070A00DF00CA /* BobGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobGame.swift; sourceTree = "<group>"; };
+		9B6FDC1C26FA3BD800856280 /* Wall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wall.swift; sourceTree = "<group>"; };
+		9B6FDC2026FA533F00856280 /* Door.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Door.swift; sourceTree = "<group>"; };
+		9BA2862B270F696F00710D81 /* Geometry */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Geometry; path = ../../Downloads/Geometry; sourceTree = "<group>"; };
+		9BAFA6BE270B59D400B85716 /* Bomb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bomb.swift; sourceTree = "<group>"; };
+		9BAFA6C0270B5C7900B85716 /* LevelOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOneView.swift; sourceTree = "<group>"; };
+		9BAFA6C2270B629D00B85716 /* Fireball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fireball.swift; sourceTree = "<group>"; };
+		9BAFA6C9270B72DD00B85716 /* Walls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walls.swift; sourceTree = "<group>"; };
+		9BAFA6CB270B73AC00B85716 /* Spikes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spikes.swift; sourceTree = "<group>"; };
+		9BAFA6CD270B744900B85716 /* Spike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spike.swift; sourceTree = "<group>"; };
+		9BBA7399270E25820038D005 /* GhostKing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostKing.swift; sourceTree = "<group>"; };
+		9BD9715127061B0B00DD21FD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		9BE28C55270CAA9D0051ED3D /* ImmunityPotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmunityPotion.swift; sourceTree = "<group>"; };
+		9BE28C57270CAD240051ED3D /* GhostPotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostPotion.swift; sourceTree = "<group>"; };
+		9BF72B0526FCE39400EEFD97 /* LevelChooser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelChooser.swift; sourceTree = "<group>"; };
+		9BF72B0B26FCE43500EEFD97 /* LevelStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelStore.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B554AFF26F8FF0100DF00CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B554B0726F8FF0100DF00CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B0B746E2703690600BDCF55 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				9BAFA6C6270B68F800B85716 /* Main */,
+				9BAFA6C4270B68C900B85716 /* Good */,
+				9BAFA6C5270B68D500B85716 /* Bad */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		9B554AF526F8FEFF00DF00CA = {
+			isa = PBXGroup;
+			children = (
+				9BA2862B270F696F00710D81 /* Geometry */,
+				9B0B746E2703690600BDCF55 /* Objects */,
+				9B554B2426F9059B00DF00CA /* Model */,
+				9B554B2326F9059500DF00CA /* ViewModel */,
+				9B554B2226F9059000DF00CA /* View */,
+				9B554AFA26F8FEFF00DF00CA /* Shared */,
+				9B554B0426F8FF0100DF00CA /* iOS */,
+				9B554B0B26F8FF0100DF00CA /* macOS */,
+				9B554B0326F8FF0100DF00CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B554AFA26F8FEFF00DF00CA /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				9B554AFB26F8FEFF00DF00CA /* Bob_The_Bouncing_BallApp.swift */,
+				9B554B1F26F9004700DF00CA /* Pixel.swift */,
+				9B554AFD26F8FF0100DF00CA /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		9B554B0326F8FF0100DF00CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B554B0226F8FF0100DF00CA /* Bob The Bouncing Ball.app */,
+				9B554B0A26F8FF0100DF00CA /* Bob The Bouncing Ball.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B554B0426F8FF0100DF00CA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9B554B0526F8FF0100DF00CA /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		9B554B0B26F8FF0100DF00CA /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				9B554B0C26F8FF0100DF00CA /* Info.plist */,
+				9B554B0D26F8FF0100DF00CA /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		9B554B2226F9059000DF00CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9BA28609270F595900710D81 /* Objects */,
+				9B0B746F27038AC500BDCF55 /* Settings.swift */,
+				9B554AFC26F8FEFF00DF00CA /* ContentView.swift */,
+				9BF72B0526FCE39400EEFD97 /* LevelChooser.swift */,
+				9BAFA6C0270B5C7900B85716 /* LevelOneView.swift */,
+				9BD9715127061B0B00DD21FD /* HomeView.swift */,
+				9B468BB62704E96D00E522ED /* Screens.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B554B2326F9059500DF00CA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9B554B2526F9062D00DF00CA /* GameMechanics.swift */,
+				9BF72B0B26FCE43500EEFD97 /* LevelStore.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9B554B2426F9059B00DF00CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9B554B2826F9070A00DF00CA /* BobGame.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9BA28609270F595900710D81 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				9BAFA6C9270B72DD00B85716 /* Walls.swift */,
+				9BAFA6CB270B73AC00B85716 /* Spikes.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		9BAFA6C4270B68C900B85716 /* Good */ = {
+			isa = PBXGroup;
+			children = (
+				9BE28C55270CAA9D0051ED3D /* ImmunityPotion.swift */,
+				9BE28C57270CAD240051ED3D /* GhostPotion.swift */,
+			);
+			path = Good;
+			sourceTree = "<group>";
+		};
+		9BAFA6C5270B68D500B85716 /* Bad */ = {
+			isa = PBXGroup;
+			children = (
+				9BAFA6BE270B59D400B85716 /* Bomb.swift */,
+				9BAFA6C2270B629D00B85716 /* Fireball.swift */,
+				9BAFA6CD270B744900B85716 /* Spike.swift */,
+				9BBA7399270E25820038D005 /* GhostKing.swift */,
+			);
+			path = Bad;
+			sourceTree = "<group>";
+		};
+		9BAFA6C6270B68F800B85716 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9B554B1C26F8FF2200DF00CA /* Bob.swift */,
+				9B6FDC1C26FA3BD800856280 /* Wall.swift */,
+				9B6FDC2026FA533F00856280 /* Door.swift */,
+				9B3D2EA226FB945C00A1716E /* Key.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B554B0126F8FF0100DF00CA /* Bob The Bouncing Ball (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B554B1626F8FF0100DF00CA /* Build configuration list for PBXNativeTarget "Bob The Bouncing Ball (iOS)" */;
+			buildPhases = (
+				9B554AFE26F8FF0100DF00CA /* Sources */,
+				9B554AFF26F8FF0100DF00CA /* Frameworks */,
+				9B554B0026F8FF0100DF00CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bob The Bouncing Ball (iOS)";
+			productName = "Bob The Bouncing Ball (iOS)";
+			productReference = 9B554B0226F8FF0100DF00CA /* Bob The Bouncing Ball.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B554B0926F8FF0100DF00CA /* Bob The Bouncing Ball (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B554B1926F8FF0100DF00CA /* Build configuration list for PBXNativeTarget "Bob The Bouncing Ball (macOS)" */;
+			buildPhases = (
+				9B554B0626F8FF0100DF00CA /* Sources */,
+				9B554B0726F8FF0100DF00CA /* Frameworks */,
+				9B554B0826F8FF0100DF00CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bob The Bouncing Ball (macOS)";
+			productName = "Bob The Bouncing Ball (macOS)";
+			productReference = 9B554B0A26F8FF0100DF00CA /* Bob The Bouncing Ball.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B554AF626F8FEFF00DF00CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					9B554B0126F8FF0100DF00CA = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					9B554B0926F8FF0100DF00CA = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 9B554AF926F8FEFF00DF00CA /* Build configuration list for PBXProject "Bob The Bouncing Ball" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B554AF526F8FEFF00DF00CA;
+			productRefGroup = 9B554B0326F8FF0100DF00CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B554B0126F8FF0100DF00CA /* Bob The Bouncing Ball (iOS) */,
+				9B554B0926F8FF0100DF00CA /* Bob The Bouncing Ball (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B554B0026F8FF0100DF00CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA2862C270F696F00710D81 /* Geometry in Resources */,
+				9B554B1226F8FF0100DF00CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B554B0826F8FF0100DF00CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B554B1326F8FF0100DF00CA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B554AFE26F8FF0100DF00CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B554B2026F9004700DF00CA /* Pixel.swift in Sources */,
+				9B3D2EA326FB945C00A1716E /* Key.swift in Sources */,
+				9BAFA6C1270B5C7900B85716 /* LevelOneView.swift in Sources */,
+				9BE28C56270CAA9D0051ED3D /* ImmunityPotion.swift in Sources */,
+				9B0B747027038AC500BDCF55 /* Settings.swift in Sources */,
+				9B554B2926F9070A00DF00CA /* BobGame.swift in Sources */,
+				9B6FDC1D26FA3BD800856280 /* Wall.swift in Sources */,
+				9BF72B0C26FCE43500EEFD97 /* LevelStore.swift in Sources */,
+				9B554B1D26F8FF2200DF00CA /* Bob.swift in Sources */,
+				9BBA739A270E25820038D005 /* GhostKing.swift in Sources */,
+				9BAFA6CA270B72DD00B85716 /* Walls.swift in Sources */,
+				9BAFA6BF270B59D400B85716 /* Bomb.swift in Sources */,
+				9BAFA6C3270B629D00B85716 /* Fireball.swift in Sources */,
+				9BE28C58270CAD240051ED3D /* GhostPotion.swift in Sources */,
+				9BF72B0626FCE39400EEFD97 /* LevelChooser.swift in Sources */,
+				9B6FDC2126FA533F00856280 /* Door.swift in Sources */,
+				9B554B1026F8FF0100DF00CA /* ContentView.swift in Sources */,
+				9B468BB72704E96D00E522ED /* Screens.swift in Sources */,
+				9BD9715227061B0B00DD21FD /* HomeView.swift in Sources */,
+				9B554B2626F9062D00DF00CA /* GameMechanics.swift in Sources */,
+				9BAFA6CC270B73AC00B85716 /* Spikes.swift in Sources */,
+				9BAFA6CE270B744900B85716 /* Spike.swift in Sources */,
+				9B554B0E26F8FF0100DF00CA /* Bob_The_Bouncing_BallApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B554B0626F8FF0100DF00CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BF72B0726FCE39400EEFD97 /* LevelChooser.swift in Sources */,
+				9B554B2126F9004700DF00CA /* Pixel.swift in Sources */,
+				9B554B2A26F9070A00DF00CA /* BobGame.swift in Sources */,
+				9B554B1126F8FF0100DF00CA /* ContentView.swift in Sources */,
+				9B554B2726F9062D00DF00CA /* GameMechanics.swift in Sources */,
+				9B554B0F26F8FF0100DF00CA /* Bob_The_Bouncing_BallApp.swift in Sources */,
+				9BF72B0D26FCE43500EEFD97 /* LevelStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9B554B1426F8FF0100DF00CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B554B1526F8FF0100DF00CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9B554B1726F8FF0100DF00CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JL3UHT59JH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emojiArt.Bob-The-Bouncing-Ball";
+				PRODUCT_NAME = "Bob The Bouncing Ball";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B554B1826F8FF0100DF00CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JL3UHT59JH;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emojiArt.Bob-The-Bouncing-Ball";
+				PRODUCT_NAME = "Bob The Bouncing Ball";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B554B1A26F8FF0100DF00CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JL3UHT59JH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emojiArt.Bob-The-Bouncing-Ball";
+				PRODUCT_NAME = "Bob The Bouncing Ball";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9B554B1B26F8FF0100DF00CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = JL3UHT59JH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.emojiArt.Bob-The-Bouncing-Ball";
+				PRODUCT_NAME = "Bob The Bouncing Ball";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B554AF926F8FEFF00DF00CA /* Build configuration list for PBXProject "Bob The Bouncing Ball" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B554B1426F8FF0100DF00CA /* Debug */,
+				9B554B1526F8FF0100DF00CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B554B1626F8FF0100DF00CA /* Build configuration list for PBXNativeTarget "Bob The Bouncing Ball (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B554B1726F8FF0100DF00CA /* Debug */,
+				9B554B1826F8FF0100DF00CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B554B1926F8FF0100DF00CA /* Build configuration list for PBXNativeTarget "Bob The Bouncing Ball (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B554B1A26F8FF0100DF00CA /* Debug */,
+				9B554B1B26F8FF0100DF00CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B554AF626F8FEFF00DF00CA /* Project object */;
+}
